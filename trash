@@ -1,0 +1,54 @@
+<div id="popupPromo" class="modalPromo">
+  <input type="checkbox" id="popup_checkbox" />
+  <form id="form" class="modal-content">
+    <div class="head">
+      <a href="#" class="close">×</a>
+      <h1>Nouvelle promo</h1>
+    </div>
+    <div class="section informations-perso">
+      <div class="stutdent">
+        <div class="line flex">
+          <span><i class="fa-solid fa-1"></i></span>
+          <span>Informations Promo.</span>
+        </div>
+        <div class="input-group">
+          <div class="stutdent-image">
+            <div class="file">
+              <div class="error" style="font-size: 1em"></div>
+            </div>
+            <div class="img">
+              <img
+                id="studentImage"
+                src="/assets/img/profile.jpeg"
+                alt="Image"
+              />
+            </div>
+          </div>
+          <div>
+            <label for="libelle">libelle</label>
+            <input
+              type="text"
+              name="libelle"
+              id="app"
+              placeholder="Entrer le lien "
+            />
+            <div id="error"></div>
+          </div>
+          <div>
+            <label for="debut">Date debut</label>
+            <input type="date" name="debut" id="app" />
+            <div id="error"></div>
+          </div>
+          <div>
+            <label for="prenom">Date fin</label>
+            <input type="date" name="fin" id="app" />
+            <div id="error"></div>
+          </div>
+        </div>
+        <div class="btn-checkbox next" id="suivant">
+          <i class="fa-solid fa-circle-arrow-right"></i> Suivant
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
